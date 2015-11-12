@@ -1,0 +1,21 @@
+﻿Build started 2015-11-12 08:13:19.
+     1>Project "\\storage10.student.bth.se\profile\dapg14\Desktop\RayCastLab\RayCastLab.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Scene.cpp main.cpp ToScreen.cpp
+         Scene.cpp
+     1>Scene.cpp(114): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+         main.cpp
+         ToScreen.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"\\storage10.student.bth.se\profile\dapg14\Desktop\RayCastLab\Release\RayCastLab.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"\\storage10.student.bth.se\profile\dapg14\Desktop\RayCastLab\Release\RayCastLab.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"\\storage10.student.bth.se\profile\dapg14\Desktop\RayCastLab\Release\RayCastLab.lib" /MACHINE:X86 /SAFESEH /LTCG Release\Scene.obj
+         Release\main.obj
+         Release\Shapes.obj
+         Release\ToScreen.obj
+         Generating code
+         Finished generating code
+         RayCastLab.vcxproj -> \\storage10.student.bth.se\profile\dapg14\Desktop\RayCastLab\Release\RayCastLab.exe
+     1>Done Building Project "\\storage10.student.bth.se\profile\dapg14\Desktop\RayCastLab\RayCastLab.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.38
